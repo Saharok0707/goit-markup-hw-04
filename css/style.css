@@ -188,13 +188,17 @@ border-bottom: var(--header-border);
 .advantages-list li:not(:last-child) {
 margin-right: 30px;
 }
-.adv-icon {
+.adv-icon-div {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
+}
+.adv-icon {
+  width: 70px;
+  height: 70px;
 }
 
 
@@ -250,6 +254,7 @@ margin-right: 30px;
   width: 270px;
   text-align: center;
   display: inline-block;
+  box-shadow: 0 2px 1px #00000040;
 }
 .team-list li:not(:last-child) {
   margin-right: 30px;
